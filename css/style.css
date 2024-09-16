@@ -8,6 +8,7 @@
   --negro: #000000;
   --gris: #d1d0d0;
   --gris-200:#626262;
+  --fuenteSofadi:"Sofadi One", system-ui;
 }
 
 html 
@@ -99,6 +100,8 @@ img
 
 
 
+
+
 article
 {
   margin: 5rem;
@@ -152,7 +155,6 @@ article
   text-align: center;
   color: var(--blanco);
   padding-top: 17rem;
-  /* margin-top: 15rem; */
 }
 
 .desayuno {
@@ -202,22 +204,20 @@ article
   }
 }
 
-/* .header_mensaje {
-  font-size: 1.8rem;
-  padding-top: 2rem;
-} */
 
-@media (min-width: 768px) {
-  .contenido-principal {
+
+@media (min-width: 768px) 
+{
+  .contenido-principal 
+  {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-gap: 1rem; */
     gap: 3rem ;
   }
 }
 
-.entrada {
-  /* border-bottom: 1px solid var(--blanco); */
+.entrada 
+{
     margin-bottom: 4rem;  
 }
 
@@ -246,57 +246,7 @@ article
   margin-left: 1rem;
   justify-content: center;
 }
-/* .boton {
-  display: block;
-  font-family: var(--fuenteHeadings);
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--blanco);
-  text-align: center;
-  padding: 1rem 2rem;
-  margin: 2rem 0;
-  border: none;
-}
 
-.boton:hover {
-  cursor: pointer;
-}
-
-@media (min-width: 768px) {
-  .boton {
-    display: inline-block;
-    
-  }
-}
-
-.boton-primario {
-  background-color: var(--negro);
-}
-
-.boton-secundario {
-  background-color: var(--primario);
-} */
-
-/* .curso {
-  list-style: none;
-  border-bottom: 2px solid var(--gris);
-  margin-bottom: 2rem;
-}
-
-.curso:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
-.curso__label {
-  font-family: var(--fuenteHeadings);
-  font-weight: 700;
-}
-
-.curso__info {
-  font-weight: 400;
-} */
 
 /* Footer */
 
@@ -309,17 +259,12 @@ article
 
 @media (min-width: 768px) {
   .sobre--nosotros {
-    /* display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-        padding-bottom: 2rem; */
-
     display: flex;
     justify-content: space-between;
   }
 
   .sobre--nosotros__imagen {
-    flex: 0 0 calc(50% - 2rem);
+    flex: 0 0 calc(50% - 1rem);
   }
 
   .sobre--nosotros__texto {
@@ -401,4 +346,20 @@ article
     width: auto;
     margin-left: auto;
   }
+}
+
+
+/* .sofadi-one-regular 
+{
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+.platoTipico h3
+{
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
