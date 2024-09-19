@@ -173,37 +173,33 @@ article
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
-  .barra {
+@media (min-width: 768px) 
+{
+  .barra
+   {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px)
+{
   .navegacion {
     display: flex;
-    /* justify-content: space-between; */
     gap: 2.5rem;
   }
 }
 
-.navegacion__enlace {
+.navegacion__enlace 
+{
   display: block;
   color: var(--blanco);
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   text-align: center;
   margin-top: 1rem;
 }
-
-@media (min-width: 768px) {
-  .navegacion__enlace {
-    /* margin-right: 0.5rem; */
-    /* flex-basis: calc(33.3% - 2rem); */
-  }
-}
-
 
 
 @media (min-width: 768px) 
@@ -221,20 +217,30 @@ article
     margin-bottom: 4rem;  
 }
 
-.entrada:last-child {
+.entrada:last-child
+{
   border-bottom: none;
   margin-bottom: 0;
 }
 
-.dish-content {
+.dish-content 
+{
   font-size: 20px;
 }
 
-@media (min-width: 768px) {
-  .entrada__imagen img {
+@media (min-width: 768px)
+{
+  .entrada__imagen img
+  {
     max-width: 45rem;
   }
 }
+
+.entrada__texto p
+{
+  text-align: justify;
+}
+
 
 .entrada__contenido h4
 {
@@ -245,35 +251,44 @@ article
 {
   margin-left: 1rem;
   justify-content: center;
+  text-align: justify;
 }
+
 
 
 /* Footer */
 
-.footer {
+.footer
+{
   background-color: var(--negro);
   margin-top: 5rem;
 }
 
 /* Nosotros */
 
-@media (min-width: 768px) {
-  .sobre--nosotros {
+@media (min-width: 768px) 
+{
+  .sobre--nosotros
+  {
     display: flex;
     justify-content: space-between;
   }
 
-  .sobre--nosotros__imagen {
+  .sobre--nosotros__imagen 
+  {
     flex: 0 0 calc(50% - 1rem);
   }
 
-  .sobre--nosotros__texto {
+  .sobre--nosotros__texto 
+  {
     flex: 0 0 calc(50% - 2rem);
   }
 }
 
-@media (min-width: 768px) {
-  .curso--widget {
+@media (min-width: 768px) 
+{
+  .curso--widget 
+  {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
@@ -362,4 +377,35 @@ article
   font-family: "Sofadi One", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (min-width: 768px) 
+{
+    .footer__contenido
+    {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+    }
+}
+
+
+
+.footer__informacion p
+{
+    font-family: var(--fuenteSans);
+    font-weight: 800;
+    font-style: normal;
+    color: var(--blanco);
+    margin-top: 1rem;
+    font-size:3rem;
+}
+
+
+.siguenos p
+{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal; 
 }
