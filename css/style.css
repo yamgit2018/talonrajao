@@ -302,74 +302,7 @@ article
   }
 }
 
-/* Contacto */
 
-.contacto-bk {
-  background-image: url(../img/contacto.jpg);
-  height: 40rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Formulario */
-
-.formulario {
-  margin: -5rem auto 0 auto;
-  width: 95%;
-  background-color: var(--blanco);
-  padding: 5rem;
-}
-
-.campo {
-  display: flex;
-  margin-bottom: 2rem;
-}
-
-.campo__label {
-  flex: 0 0 9rem;
-  text-align: right;
-  padding-right: 2rem;
-}
-
-.campo__field {
-  flex: 1;
-}
-
-.campo__field--textarea {
-  height: 20rem;
-  width: 40rem;
-}
-
-/* @media (max-width: 768px) 
-{
-    .btn
-    {
-        width: 100%;
-        flex: 1;
-    }  
-     
-} */
-
-.btn {
-  display: block;
-  /* margin-left: auto; */
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .boton {
-    width: auto;
-    margin-left: auto;
-  }
-}
-
-
-/* .sofadi-one-regular 
-{
-  font-family: "Sofadi One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-} */
 
 
 .platoTipico h3
@@ -390,6 +323,11 @@ article
     }
 }
 
+/* .correo p
+  {
+    font-size: 2.5rem;
+    align-items: center;
+  }   */
 
 
 .footer__informacion p
@@ -399,7 +337,16 @@ article
     font-style: normal;
     color: var(--blanco);
     margin-top: 1rem;
-    font-size:3rem;
+    font-size:2.5rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) 
+{
+  .footer__informacion p
+  {
+    font-size: 3rem;
+  }
 }
 
 
@@ -409,3 +356,6 @@ article
     font-weight: 400;
     font-style: normal; 
 }
+
+
+   
