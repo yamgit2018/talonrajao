@@ -336,7 +336,7 @@ article
     font-weight: 800;
     font-style: normal;
     color: var(--blanco);
-    margin-top: 1rem;
+    padding: 1rem 0;
     font-size:2rem;
     align-items: center;
 }
@@ -347,6 +347,11 @@ article
   {
     font-size: 3rem;
   }
+}
+
+.numero--celular p
+{
+  margin-bottom: 1rem;
 }
 
 
