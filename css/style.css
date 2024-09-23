@@ -9,6 +9,7 @@
   --gris: #d1d0d0;
   --gris-200:#626262;
   --fuenteSofadi:"Sofadi One", system-ui;
+  --verdeClaro:#DAF7A6;
 }
 
 html 
@@ -162,7 +163,7 @@ article
 }
 
 .logo {
-  color: var(--blanco);
+  color: var(--verdeClaro);
 }
 
 .logo__nombre {
@@ -171,6 +172,21 @@ article
 
 .logo__blog {
   font-weight: 700;
+}
+
+.logo--food
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+
+
+}
+
+.food
+{
+  color: var(--verdeClaro);
+  font-size: 4.5rem;
 }
 
 @media (min-width: 768px) 
@@ -194,11 +210,11 @@ article
 .navegacion__enlace 
 {
   display: block;
-  color: var(--blanco);
+  color: var(--verdeClaro);
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 
