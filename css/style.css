@@ -163,7 +163,7 @@ article
 }
 
 .logo {
-  color: var(--verdeClaro);
+  color: var(--blanco);
 }
 
 .logo__nombre {
@@ -185,8 +185,9 @@ article
 
 .food
 {
-  color: var(--verdeClaro);
+  color: var(--blanco);
   font-size: 4.5rem;
+  margin-left: 3rem;
 }
 
 @media (min-width: 768px) 
