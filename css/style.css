@@ -211,7 +211,7 @@ article
 .navegacion__enlace 
 {
   display: block;
-  color: var(--verdeClaro);
+  color: var(--blanco);
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
