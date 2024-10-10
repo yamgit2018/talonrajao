@@ -44,10 +44,9 @@ img
 
 .contenedor 
 {
-  max-width: 120rem;
+  max-width: 130rem;
   width: 90%;
   margin: 0 auto;
-
   position: relative;
   z-index: 2;
 }
@@ -55,7 +54,6 @@ img
 a
 {
   text-decoration: none;
- 
 }
 
 h2,
@@ -174,13 +172,33 @@ article
   font-weight: 700;
 }
 
-.logo--food
+
+.talon--rajao
 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
+  color: #5f0808;
+}
+ 
+.event 
+{
+  color: #5f0808;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
 
-
+@media (min-width: 768px) 
+{
+    .logo--food
+    {
+      display: flex; 
+      flex-direction:column; 
+      justify-content: space-between; 
+    
+    } 
+    
+    .logo--parte-inferior
+    {
+      margin: 20rem 0;
+    }
 }
 
 .food
@@ -190,12 +208,20 @@ article
   margin-left: 3rem;
 }
 
+
+.food-chincha
+{
+  color:#5f0808;
+  font-size: 4rem;
+  margin-left: 3rem;
+}
+
 @media (min-width: 768px) 
 {
   .barra
    {
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
    }
 }
@@ -219,13 +245,15 @@ article
 }
 
 
+
+
 @media (min-width: 768px) 
 {
   .contenido-principal 
   {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem ;
+    gap: 2.5rem ;
   }
 }
 
@@ -243,6 +271,7 @@ article
 .dish-content 
 {
   font-size: 20px;
+  margin-top: 1.5rem;
 }
 
 @media (min-width: 768px)
@@ -271,6 +300,10 @@ article
   text-align: justify;
 }
 
+.titulo--carapulcra
+{
+  margin-top: 1.5rem;
+}
 
 
 /* Footer */
