@@ -131,9 +131,10 @@ article
 }
 
 .header {
-  background-image: url(../img/chincha_transformed_1200x672.jpeg);
-  height: 60rem;
+  background-image: url(../img/chincha_dia_1_mejoradaIA_1920_956_2.webp);
+  height: 100rem;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
   padding-top: 5rem;
   position: relative;
@@ -175,12 +176,12 @@ article
 
 .talon--rajao
 {
-  color: #5f0808;
+  color:var(--negro);
 }
  
 .event 
 {
-  color: #5f0808;
+  color: var(--negro);
   font-size: 3rem;
   margin-left: 3rem;
 }
@@ -211,7 +212,7 @@ article
 
 .food-chincha
 {
-  color:#5f0808;
+  color:var(--negro);
   font-size: 4rem;
   margin-left: 3rem;
 }
@@ -237,7 +238,7 @@ article
 .navegacion__enlace 
 {
   display: block;
-  color: var(--blanco);
+  color: var(--negro);
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
